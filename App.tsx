@@ -4,6 +4,9 @@ import Geolocation from '@react-native-community/geolocation';
 import Router from './src/navigation/root'
 navigator.geolocation = require('@react-native-community/geolocation');
 import 'react-native-gesture-handler';
+import { Amplify } from 'aws-amplify';
+import amplifyconfig from './src/amplifyconfiguration.json';
+Amplify.configure(amplifyconfig);
 
 function App(): React.JSX.Element {
   const requestLocationPermission = async () => {

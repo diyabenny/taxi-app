@@ -1,0 +1,16 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "taxiappc49fd0a4c49fd0a4",
+  "functionName": "taxiappc49fd0a4c49fd0a4PostConfirmation",
+  "resourceName": "taxiappc49fd0a4c49fd0a4PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "C:\\snapshot\\amplify-cli\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "taxiappc49fd0a4c49fd0a4PostConfirmation",
+  "skipEdit": true
+}
